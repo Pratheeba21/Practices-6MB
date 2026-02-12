@@ -21,13 +21,11 @@ let b=20;
 
 
  let swap=function(e,f){
-    let c;
-    c=e; //c= 50
-    e=f; // e=100
-    f=c; //f=50
-    console.log(e);//
-    console.log(f);//
+    return e;
 }
 
+let swap1 =  (e, f) => e;
+
 // swap(a,b);
-swap(50,100);
+console.log(swap(50,100));
+swap1(50, 100);
