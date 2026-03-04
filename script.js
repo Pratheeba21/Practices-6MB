@@ -27,3 +27,12 @@ function say(a1,b1=8,c1) {
 // say(5,5,5); // call by value
 // say(6, 6, 6);  // call by value
 console.log(say(6,6,6));
+
+arr=[1,2,3]
+      0,1,2
+for(let i=0;i<arr.length;i++){}
+2; 3<=3
+i<=3
+i<=a.l+1
+
+2 
