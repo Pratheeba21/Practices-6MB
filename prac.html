@@ -24,7 +24,11 @@
         para_id.style.backgroundColor = "blue"
 
        let clsp=document.getElementsByClassName("clsp");
-       clsp.textContent="para from class";
+       
+       //htmlcollevction - live
+       for(let i=0;i<clsp.length;i++){
+        clsp[i].textContent="para from class";
+       }
        
 
 //<p><button>p</button></p>

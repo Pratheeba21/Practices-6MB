@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bd">
+    <h1>Hi</h1>
+    <p class="ap"></p>
+    <p class="ap"></p>
+    <p class="ap"></p>
+    <script>
+        const bd = document.getElementById("bd");
+        const ap = document.getElementsByClassName("ap"); //html collection
+        const ap2= document.querySelectorAll(".ap"); //nodelist
+
+       const pt=document.createElement("p");
+       pt.className = "ap";
+
+        bd.appendChild(pt);
+       for(let i=0;i<ap.length;i++){
+        ap[i].textContent = "apple";
+       }
+
+       for(let i=0;i<ap2.length;i++){
+        ap2[i].style.color ="red";
+       }
+
+       console.log(ap.length);
+       console.log(ap2.length)
+
+       
+        
+
+    </script>
+</body>
+</html>

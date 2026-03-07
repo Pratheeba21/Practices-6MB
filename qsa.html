@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>QSA</h1>
+    <p id="qs"></p>
+     <p id="qs"></p>
+      <p id="qs"></p>
+      <script>
+        const qs = document.getElementById("qs");
+        qs.textContent ="apple";
+
+       const qsa = document.querySelectorAll("#qs");
+       //nodelist - static
+
+       for(let i=0;i<qsa.length;i++){
+        qsa[i].textContent = "banana";
+        qsa[i].style.color ="red";
+       }
+
+       const qs2 = document.querySelector("#qs");
+       qs2.style.color = "blue";
+      </script>
+</body>
+</html>
