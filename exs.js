@@ -16,18 +16,24 @@
 // // //[3,4,9, 8 ];
 
 // // const result = nums.map((e) => { //e=1
-// //     if(e%2==0){ //false
-// //         return e*2;
-// //     }
-// //     else{
-// //         return e*3; //3
-// //     }
-// // } )
-// // console.log(result);
+// // //     if(e%2==0){ //false
+// // //         return e*2;
+// // //     }
+// // //     else{
+// // //         return e*3; //3
+// // //     }
+// // // } )
+// // // console.log(result);
 
-// console.log([] === false);
+// // console.log([] === false);
 
-const colors = ["red", "blue"];
-colors.push("green");
-colors[0] = "yellow";
-colors = ["black"];
+// const colors = ["red", "blue"];
+// colors.push("green");
+// colors[0] = "yellow";
+// colors = ["black"];
+
+const a = () =>{
+    console.log("h");
+};
+
+console.log(a());

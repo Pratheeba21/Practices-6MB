@@ -9,9 +9,9 @@
 // else{
 // }
 
-let a = "Tuesday";
+let a = "1";
 switch (a) {
-  case "Monday":
+  case 1:
     console.log(" Starting of the week");
     break;
   default:
