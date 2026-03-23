@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dv">
+        <p id="p1">text 1</p>
+    </div>
+    <script>
+       const p2 = document.createElement("p");
+       const dv =document.getElementById("dv");
+      const p1 = document.getElementById("p1");
+       p2.textContent = "text 2";
+       dv.insertBefore(p2);
+    //   const d = p2.remove();
+    //   console.log(d)
+    //  const d2 = dv.removeChild(p1);
+    //  console.log(d2);
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!-- Task 3: Dynamic Deletion: 
+Add a button 
+that removes the last child element of a container <div> 
+    when clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click</button>
+    
+    <h1>List 1</h1>
+    <ul id="ul1">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li id="i3">item 3</li>
+        <li>item 4</li>
+    </ul>
+    <h1>List 2</h1>
+    <ul id="ul2">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        
+    </ul>
+    <script>
+        const ul1= document.getElementById("ul1");
+        const ul2= document.getElementById("ul2");
+        const i3 = document.getElementById("i3");
+       const btn = document.getElementById("btn");
+       btn.addEventListener("click", function(){
+        ul1.removeChild(i3);
+        ul2.appendChild(i3);
+       });
+      
+
+    </script>
+</body>
+</html>

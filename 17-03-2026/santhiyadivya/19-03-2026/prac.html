@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bd">
+    <div id="dv">
+        <span id="sp">hi</span>
+        <span id="sp">hi</span>
+        <span id="sp3">hi</span>
+
+        <span id="sp">hi</span>
+        <span id="sp">hi</span>
+    </div>
+    
+    <script>
+    
+        const dv = document.getElementById("dv");
+         const sp = document.getElementById("sp3");
+        const para=  document.createElement("p");
+        
+        const dv2 =dv.insertBefore(para, sp );
+        para.textContent = "hello";
+        console.log(dv2);
+    
+    </script>
+</body>
+</html>
